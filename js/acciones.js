@@ -11,7 +11,7 @@ $(document).ready(function(e) {
 			escribehistoria ('la app se pausó');
 		},false);//pause
 		document.addEventListener("resume",function(){
-			escribehistoria ('la app se pausó');
+			escribehistoria ('la app se reinicio');
 		},false);//resume
 		document.addEventListener("online",function(){
 			escribehistoria ('la app se conecto a la red');
